@@ -786,7 +786,9 @@ footer p small {
 		margin: 0px 5%;
 	}
 	.content p {
-		margin-bottom:0.8em;
+		margin-bottom: 2em;
+		line-height: 200%;
+		font-size: 0.85em;
 	}
 	#wrapper2 {
 		width:100%;
@@ -879,6 +881,13 @@ footer p small {
 	}
 
 	/*---------------------------------
+	_見出し
+	-----------------------------------*/
+	.subtitle h2 {
+		font-size: 1.5em;
+	}
+
+	/*---------------------------------
 	_プロフィール
 	-----------------------------------*/
 	.profile-box .photo {
@@ -892,6 +901,9 @@ footer p small {
 		width: 100%;
 		float: right;
 	}
+	.profile-box .detail .name {
+		font-size: 2em;
+	}
 
 	/*---------------------------------
 	_テーブル
@@ -901,6 +913,7 @@ footer p small {
 		border-bottom: none;
 		display: block;
 		width: auto;
+		font-size: 0.85em;
 	}
 	table.form1 {
 		border-bottom: solid 1px #dcdcdc;
