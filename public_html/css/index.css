@@ -1,4 +1,4 @@
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, p, blockquote, table, th, td { margin: 0px; padding: 0px; }
+body, div, dl, dt, dd, ul, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, p, blockquote, table, th, td { margin: 0px; padding: 0px; }
 html, body { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0); }
 body {
 	font-family: "Noto Sans Japanese", "MS PGothic", sans-serif;
@@ -34,7 +34,7 @@ body {
 }
 
 .content p {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .wrapper2 {
 	width: 870px;
@@ -228,7 +228,7 @@ _テーブル
 -----------------------------------*/
 table.form1 { border-collapse: collapse; border-spacing: 0px; font-size: inherit; width: 100%; margin: 0px auto; }
 .form1 th, td { text-align: left; vertical-align: top; }
-.form1 th { font-weight: normal; width: 80px; padding: 20px; font-size: 18px; background-color: rgb(243, 243, 251); vertical-align: middle; border: 1px solid rgb(220, 220, 220); }
+.form1 th { font-weight: normal; padding: 20px; font-size: 18px; background-color: rgb(243, 243, 251); vertical-align: middle; border: 1px solid rgb(220, 220, 220); }
 .form1 td { padding: 20px; font-size: 18px; border: 1px solid rgb(230, 230, 230); }
 table.form2 { border-collapse: collapse; border-spacing: 0px; font-size: inherit; width: 768px; margin: 0px auto; }
 .form2 th, td { text-align: left; vertical-align: top; }
@@ -390,7 +390,7 @@ _フォントカラー
 }
 
 
-ul {
+/* ul {
 	margin-bottom: 30px;
 }
 li {
@@ -402,7 +402,7 @@ li {
 	color: #111;
 	line-height:120%;
 	margin-bottom: 30px;
-}
+} */
 p.title2 {
 	display: none;
 }
@@ -661,12 +661,14 @@ footer .footer-contents {
 footer .footer-contents ul {
 	width: 672px;
 	margin: 0 auto;
+	list-style: none;
 }
 footer .footer-contents ul li {
 	background: transparent;
 	margin-right: 20px;
 	float: left;
 	padding: 0;
+	margin: 0px;
 	margin-bottom: 5px;
 	font-weight: normal;
 }
@@ -848,7 +850,7 @@ footer p small {
 
 	/*ăŞăšă?
 	******************************************/
-	ul {
+	/* ul {
 		margin-bottom: 1em;
 	}
 	li {
@@ -860,7 +862,7 @@ footer p small {
 		color: #111;
 		line-height:160%;
 		margin-bottom: 10px;
-	}
+	} */
 	.button {
 		max-width: 96%;
 		margin: 0 auto;
